@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBF35C8A1FD6255F003F1BB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF35C891FD6255F003F1BB3 /* AppDelegate.m */; };
+		CBF35C8C1FD6255F003F1BB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBF35C8B1FD6255F003F1BB3 /* Assets.xcassets */; };
+		CBF35C8F1FD6255F003F1BB3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBF35C8D1FD6255F003F1BB3 /* MainMenu.xib */; };
+		CBF35C921FD6255F003F1BB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF35C911FD6255F003F1BB3 /* main.m */; };
+		CBF35C9C1FD625D9003F1BB3 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF35C9A1FD625D9003F1BB3 /* MainWindowController.m */; };
+		CBF35C9D1FD625D9003F1BB3 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBF35C9B1FD625D9003F1BB3 /* MainWindowController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB3F12831FD8D0EE00E2EEF0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/MainMenu.strings"; sourceTree = "<group>"; };
+		CB3F12841FD8D0F800E2EEF0 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/MainMenu.strings"; sourceTree = "<group>"; };
+		CB3F12851FD8D10100E2EEF0 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/MainMenu.strings; sourceTree = "<group>"; };
+		CB3F12861FD8D10600E2EEF0 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/MainMenu.strings; sourceTree = "<group>"; };
+		CB3F12871FD8D10C00E2EEF0 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/MainMenu.strings; sourceTree = "<group>"; };
+		CB3F12881FD8D11100E2EEF0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/MainMenu.strings; sourceTree = "<group>"; };
+		CB3F12891FD8D11800E2EEF0 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/MainMenu.strings; sourceTree = "<group>"; };
+		CBF35C851FD6255F003F1BB3 /* NoMenuWindow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoMenuWindow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBF35C881FD6255F003F1BB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CBF35C891FD6255F003F1BB3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CBF35C8B1FD6255F003F1BB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBF35C8E1FD6255F003F1BB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CBF35C901FD6255F003F1BB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBF35C911FD6255F003F1BB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBF35C931FD6255F003F1BB3 /* NoMenuWindow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NoMenuWindow.entitlements; sourceTree = "<group>"; };
+		CBF35C991FD625D9003F1BB3 /* MainWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		CBF35C9A1FD625D9003F1BB3 /* MainWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		CBF35C9B1FD625D9003F1BB3 /* MainWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBF35C821FD6255F003F1BB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBF35C7C1FD6255F003F1BB3 = {
+			isa = PBXGroup;
+			children = (
+				CBF35C871FD6255F003F1BB3 /* NoMenuWindow */,
+				CBF35C861FD6255F003F1BB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBF35C861FD6255F003F1BB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBF35C851FD6255F003F1BB3 /* NoMenuWindow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBF35C871FD6255F003F1BB3 /* NoMenuWindow */ = {
+			isa = PBXGroup;
+			children = (
+				CBF35C881FD6255F003F1BB3 /* AppDelegate.h */,
+				CBF35C891FD6255F003F1BB3 /* AppDelegate.m */,
+				CBF35C991FD625D9003F1BB3 /* MainWindowController.h */,
+				CBF35C9A1FD625D9003F1BB3 /* MainWindowController.m */,
+				CBF35C9B1FD625D9003F1BB3 /* MainWindowController.xib */,
+				CBF35C8B1FD6255F003F1BB3 /* Assets.xcassets */,
+				CBF35C8D1FD6255F003F1BB3 /* MainMenu.xib */,
+				CBF35C901FD6255F003F1BB3 /* Info.plist */,
+				CBF35C911FD6255F003F1BB3 /* main.m */,
+				CBF35C931FD6255F003F1BB3 /* NoMenuWindow.entitlements */,
+			);
+			path = NoMenuWindow;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBF35C841FD6255F003F1BB3 /* NoMenuWindow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBF35C961FD6255F003F1BB3 /* Build configuration list for PBXNativeTarget "NoMenuWindow" */;
+			buildPhases = (
+				CBF35C811FD6255F003F1BB3 /* Sources */,
+				CBF35C821FD6255F003F1BB3 /* Frameworks */,
+				CBF35C831FD6255F003F1BB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NoMenuWindow;
+			productName = NoMenuWindow;
+			productReference = CBF35C851FD6255F003F1BB3 /* NoMenuWindow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBF35C7D1FD6255F003F1BB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = noontec;
+				TargetAttributes = {
+					CBF35C841FD6255F003F1BB3 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CBF35C801FD6255F003F1BB3 /* Build configuration list for PBXProject "NoMenuWindow" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBF35C7C1FD6255F003F1BB3;
+			productRefGroup = CBF35C861FD6255F003F1BB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBF35C841FD6255F003F1BB3 /* NoMenuWindow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBF35C831FD6255F003F1BB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF35C8C1FD6255F003F1BB3 /* Assets.xcassets in Resources */,
+				CBF35C9D1FD625D9003F1BB3 /* MainWindowController.xib in Resources */,
+				CBF35C8F1FD6255F003F1BB3 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBF35C811FD6255F003F1BB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF35C9C1FD625D9003F1BB3 /* MainWindowController.m in Sources */,
+				CBF35C921FD6255F003F1BB3 /* main.m in Sources */,
+				CBF35C8A1FD6255F003F1BB3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CBF35C8D1FD6255F003F1BB3 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBF35C8E1FD6255F003F1BB3 /* Base */,
+				CB3F12831FD8D0EE00E2EEF0 /* zh-Hans */,
+				CB3F12841FD8D0F800E2EEF0 /* zh-Hant */,
+				CB3F12851FD8D10100E2EEF0 /* fr */,
+				CB3F12861FD8D10600E2EEF0 /* de */,
+				CB3F12871FD8D10C00E2EEF0 /* ja */,
+				CB3F12881FD8D11100E2EEF0 /* es */,
+				CB3F12891FD8D11800E2EEF0 /* it */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBF35C941FD6255F003F1BB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CBF35C951FD6255F003F1BB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CBF35C971FD6255F003F1BB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NoMenuWindow/NoMenuWindow.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = WC4U373T4F;
+				INFOPLIST_FILE = NoMenuWindow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tumei.NoMenuWindow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CBF35C981FD6255F003F1BB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NoMenuWindow/NoMenuWindow.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = WC4U373T4F;
+				INFOPLIST_FILE = NoMenuWindow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tumei.NoMenuWindow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBF35C801FD6255F003F1BB3 /* Build configuration list for PBXProject "NoMenuWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBF35C941FD6255F003F1BB3 /* Debug */,
+				CBF35C951FD6255F003F1BB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBF35C961FD6255F003F1BB3 /* Build configuration list for PBXNativeTarget "NoMenuWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBF35C971FD6255F003F1BB3 /* Debug */,
+				CBF35C981FD6255F003F1BB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBF35C7D1FD6255F003F1BB3 /* Project object */;
+}
