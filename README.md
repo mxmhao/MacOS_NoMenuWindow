@@ -1,0 +1,2 @@
+# MacOS_NoMenuWindow
+删除MainMenu.xib中的Window，然后用MainWindowController代替
